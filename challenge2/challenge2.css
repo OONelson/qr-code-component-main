@@ -1,0 +1,36 @@
+ *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: hsl(212, 45%, 89%);
+        }
+        .card{
+            width: 250px;
+            height: 430px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 10px;
+            box-shadow: 10px 8px 12px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card img{
+          width: 220px;
+          height: 260px;
+          padding: 15px;
+          border-radius: 30px;  
+        }
+        .card h1{
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .card p{
+            padding-left: 15px ;
+            padding-right: 15px;
+            font-size: 15px;
+            color: hsl(220, 15%, 55%);
+        }
